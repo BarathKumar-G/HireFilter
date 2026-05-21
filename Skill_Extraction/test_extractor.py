@@ -1,11 +1,9 @@
 from extractor import extract_entities
 
 resume = """
-Python developer.
-SQL.
-Docker.
-AWS Cloud Practitioner.
-3 years experience.
+Python
+SQL
+Docker
 """
 
 result = extract_entities(resume)

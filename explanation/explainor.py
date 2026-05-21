@@ -22,10 +22,16 @@ You are an HR resume screening assistant.
 Candidate Score: {score}
 
 Matched Skills:
-{matching['matched']}
+{matching['skills']['matched']}
 
 Missing Skills:
-{matching['missing']}
+{matching['skills']['missing']}
+
+Matched Tools:
+{matching['tools']['matched']}
+
+Missing Tools:
+{matching['tools']['missing']}
 
 Generate a concise explanation (3-5 sentences).
 
